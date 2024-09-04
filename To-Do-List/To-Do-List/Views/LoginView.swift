@@ -8,35 +8,61 @@
 import SwiftUI
 
 struct LoginView: View {
+    
+    @StateObject var viewModel = LoginViewViewModel()
+    
     var body: some View {
-        VStack {
-            //Header
-            ZStack {
-                RoundedRectangle(cornerRadius: 0)
-                    .foregroundColor(Color.blue)
-                    .rotationEffect(Angle(degrees: 15))
-                
-                VStack {
-                    Text("Taskly")
-                        .font(.system(size: 70))
-                        .foregroundColor(Color.white)
-                        .bold()
-                    
-                    Text("Get things Done")
-                        .font(.system(size: 30))
-                        .foregroundColor(Color.white)
-                }
-                .padding(.top, 30)
-                
-            }
-            .frame(width: UIScreen.main.bounds.width * 3, height: 300)
-            .offset(y:-96)
+        NavigationView {
+            VStack {
+                //header
+                HeaderView(
+                    title: "Taskly",
+                    subtitle: "Get things Done",
+                    angle: 10,
+                    backgroundColor: .blue
+                )
 
-            //login Form
-            
-            
-            //Createa account
-            Spacer()
+                
+                
+                Form {
+                    
+                    if !viewModel.errorMessage.isEmpty {
+                        Text(viewModel.errorMessage)
+                            .foregroundColor(Color.red)
+                    }
+                    
+                    TextField("Email Address", text: $viewModel.email)
+                        .textFieldStyle(DefaultTextFieldStyle())
+                        .autocapitalization(.none)
+                    
+                    SecureField("Password", text: $viewModel.password)
+                        .textFieldStyle(DefaultTextFieldStyle())
+                        .autocapitalization(.none)
+                    
+                     TLButton(
+                         title: "Log In",
+                         background: .blue,
+                         height: 40,
+                         width: 80
+                     ) {
+                             //log in
+                         viewModel.login()
+                     }
+                     .offset(x: 100, y: 0)
+                }
+                .background(Color.blue)
+                .padding()
+                .offset(y: -100)
+                
+                //Create a account
+                VStack {
+                    Text("New around here?")
+                
+                    NavigationLink("Create An Account", destination: RegisterView())
+                }
+                .padding(.bottom, 50)
+                Spacer()
+            }
         }
     }
 }
@@ -44,3 +70,4 @@ struct LoginView: View {
 #Preview {
     LoginView()
 }
+

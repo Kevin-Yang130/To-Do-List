@@ -32,6 +32,8 @@
 		54CDE26B2C816CE700E664C7 /* To_Do_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CDE26A2C816CE700E664C7 /* To_Do_ListTests.swift */; };
 		54CDE2752C816CE700E664C7 /* To_Do_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CDE2742C816CE700E664C7 /* To_Do_ListUITests.swift */; };
 		54CDE2772C816CE700E664C7 /* To_Do_ListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CDE2762C816CE700E664C7 /* To_Do_ListUITestsLaunchTests.swift */; };
+		54EC86D92C88A7F000876E17 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC86D82C88A7F000876E17 /* HeaderView.swift */; };
+		54EC86DB2C88B73800876E17 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC86DA2C88B73800876E17 /* TLButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +80,8 @@
 		54CDE2702C816CE700E664C7 /* To-Do-ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "To-Do-ListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54CDE2742C816CE700E664C7 /* To_Do_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_Do_ListUITests.swift; sourceTree = "<group>"; };
 		54CDE2762C816CE700E664C7 /* To_Do_ListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_Do_ListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		54EC86D82C88A7F000876E17 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		54EC86DA2C88B73800876E17 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +118,9 @@
 				549C38AC2C88106A0048BDF3 /* ProfileView.swift */,
 				549C38B02C88109C0048BDF3 /* NewItemView.swift */,
 				549C38B22C8810BD0048BDF3 /* LoginView.swift */,
+				54EC86D82C88A7F000876E17 /* HeaderView.swift */,
 				549C38B42C8810D40048BDF3 /* RegisterView.swift */,
+				54EC86DA2C88B73800876E17 /* TLButton.swift */,
 				549C38B62C8811220048BDF3 /* ToDoListItemView.swift */,
 				549C38AE2C88108B0048BDF3 /* ToDoListView.swift */,
 			);
@@ -350,11 +356,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				549C38B32C8810BD0048BDF3 /* LoginView.swift in Sources */,
+				54EC86D92C88A7F000876E17 /* HeaderView.swift in Sources */,
 				549C38C62C8811E80048BDF3 /* LoginViewViewModel.swift in Sources */,
 				549C38CA2C8812050048BDF3 /* ToDoListItemViewViewModel.swift in Sources */,
 				54CDE25C2C816CE600E664C7 /* MainView.swift in Sources */,
 				549C38BE2C8811B70048BDF3 /* MainViewViewModel.swift in Sources */,
 				549C38AF2C88108B0048BDF3 /* ToDoListView.swift in Sources */,
+				54EC86DB2C88B73800876E17 /* TLButton.swift in Sources */,
 				549C38C82C8811F20048BDF3 /* RegisterViewViewModel.swift in Sources */,
 				549C38B52C8810D40048BDF3 /* RegisterView.swift in Sources */,
 				549C38C02C8811C30048BDF3 /* ProfileViewViewModel.swift in Sources */,
