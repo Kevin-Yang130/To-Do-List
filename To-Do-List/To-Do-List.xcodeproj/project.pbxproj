@@ -10,7 +10,6 @@
 		549C38992C87FC920048BDF3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 549C38982C87FC920048BDF3 /* GoogleService-Info.plist */; };
 		549C389C2C8800D50048BDF3 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 549C389B2C8800D50048BDF3 /* FirebaseAuth */; };
 		549C389E2C8800D50048BDF3 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 549C389D2C8800D50048BDF3 /* FirebaseFirestore */; };
-		549C38A42C880B0D0048BDF3 /* To_Do_ListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549C38A32C880B0D0048BDF3 /* To_Do_ListApp.swift */; };
 		54CDE25A2C816CE600E664C7 /* To_Do_ListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CDE2592C816CE600E664C7 /* To_Do_ListApp.swift */; };
 		54CDE25C2C816CE600E664C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CDE25B2C816CE600E664C7 /* ContentView.swift */; };
 		54CDE25E2C816CE600E664C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54CDE25D2C816CE600E664C7 /* Assets.xcassets */; };
@@ -39,7 +38,6 @@
 
 /* Begin PBXFileReference section */
 		549C38982C87FC920048BDF3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		549C38A32C880B0D0048BDF3 /* To_Do_ListApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = To_Do_ListApp.swift; sourceTree = "<group>"; };
 		54CDE2562C816CE600E664C7 /* To-Do-List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To-Do-List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54CDE2592C816CE600E664C7 /* To_Do_ListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_Do_ListApp.swift; sourceTree = "<group>"; };
 		54CDE25B2C816CE600E664C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +77,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		549C38A52C880C9E0048BDF3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				54CDE25B2C816CE600E664C7 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		549C38A72C880CB80048BDF3 /* VIewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIewModels;
+			sourceTree = "<group>";
+		};
+		549C38A82C880CC20048BDF3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		549C38A92C880CE40048BDF3 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				54CDE25D2C816CE600E664C7 /* Assets.xcassets */,
+				54CDE2592C816CE600E664C7 /* To_Do_ListApp.swift */,
+				549C38982C87FC920048BDF3 /* GoogleService-Info.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		54CDE24D2C816CE600E664C7 = {
 			isa = PBXGroup;
 			children = (
@@ -102,11 +132,10 @@
 		54CDE2582C816CE600E664C7 /* To-Do-List */ = {
 			isa = PBXGroup;
 			children = (
-				549C38982C87FC920048BDF3 /* GoogleService-Info.plist */,
-				54CDE2592C816CE600E664C7 /* To_Do_ListApp.swift */,
-				549C38A32C880B0D0048BDF3 /* To_Do_ListApp.swift */,
-				54CDE25B2C816CE600E664C7 /* ContentView.swift */,
-				54CDE25D2C816CE600E664C7 /* Assets.xcassets */,
+				549C38A92C880CE40048BDF3 /* Other */,
+				549C38A82C880CC20048BDF3 /* Models */,
+				549C38A72C880CB80048BDF3 /* VIewModels */,
+				549C38A52C880C9E0048BDF3 /* Views */,
 				54CDE25F2C816CE600E664C7 /* Preview Content */,
 			);
 			path = "To-Do-List";
@@ -277,7 +306,6 @@
 			files = (
 				54CDE25C2C816CE600E664C7 /* ContentView.swift in Sources */,
 				54CDE25A2C816CE600E664C7 /* To_Do_ListApp.swift in Sources */,
-				549C38A42C880B0D0048BDF3 /* To_Do_ListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
