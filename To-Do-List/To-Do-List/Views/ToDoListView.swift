@@ -8,11 +8,35 @@
 import SwiftUI
 
 struct ToDoListView: View {
+    @StateObject var viewModel = ToDoListViewViewModel()
+    
+    
+    private var userId: String
+    
+    init(userId: String) {
+        self.userId = userId
+    }
+    
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            VStack {
+                
+            }
+            .navigationTitle("Taskly List")
+            .toolbar {
+                Button {
+                    //add a task
+                } label: {
+                    Image(systemName: "plus")
+                }
+            }
+        }
     }
 }
 
 #Preview {
-    ToDoListView()
+    ToDoListView(
+        userId: ""
+    )
 }

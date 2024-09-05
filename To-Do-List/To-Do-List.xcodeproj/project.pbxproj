@@ -34,6 +34,7 @@
 		54CDE2772C816CE700E664C7 /* To_Do_ListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CDE2762C816CE700E664C7 /* To_Do_ListUITestsLaunchTests.swift */; };
 		54EC86D92C88A7F000876E17 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC86D82C88A7F000876E17 /* HeaderView.swift */; };
 		54EC86DB2C88B73800876E17 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC86DA2C88B73800876E17 /* TLButton.swift */; };
+		54EC86DD2C8943C700876E17 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC86DC2C8943C700876E17 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		54CDE2762C816CE700E664C7 /* To_Do_ListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_Do_ListUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		54EC86D82C88A7F000876E17 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		54EC86DA2C88B73800876E17 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
+		54EC86DC2C8943C700876E17 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 				54CDE25D2C816CE600E664C7 /* Assets.xcassets */,
 				54CDE2592C816CE600E664C7 /* To_Do_ListApp.swift */,
 				549C38982C87FC920048BDF3 /* GoogleService-Info.plist */,
+				54EC86DC2C8943C700876E17 /* Extensions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -370,6 +373,7 @@
 				549C38BA2C8811540048BDF3 /* User.swift in Sources */,
 				549C38B72C8811220048BDF3 /* ToDoListItemView.swift in Sources */,
 				549C38CC2C8812320048BDF3 /* ToDoListViewViewModel.swift in Sources */,
+				54EC86DD2C8943C700876E17 /* Extensions.swift in Sources */,
 				549C38C42C8811DB0048BDF3 /* NewItemVIewViewModel.swift in Sources */,
 				54CDE25A2C816CE600E664C7 /* To_Do_ListApp.swift in Sources */,
 				549C38BC2C8811640048BDF3 /* ToDoListItem.swift in Sources */,

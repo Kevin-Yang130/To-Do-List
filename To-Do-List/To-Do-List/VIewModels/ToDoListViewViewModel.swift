@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+
+//list of items
+class ToDoListViewViewModel: ObservableObject {
+    init() {
+        
+    }
+}
