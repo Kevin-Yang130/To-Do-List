@@ -28,7 +28,8 @@ Taskly is designed to make task management easy and stress-free. Whether you're 
 ## Tech Stack
 - **Language**: Swift
 - **Platform**: iOS
-- **Frameworks**: UIKit, Core Data (for task persistence), Notifications (for reminders)
+- **Frameworks**: SwiftUI
+- **Database**: Firebase
 
 ## Feedback and Support
 If you encounter any bugs or have suggestions for improvement, feel free to reach out! Let’s make Taskly even better together.
