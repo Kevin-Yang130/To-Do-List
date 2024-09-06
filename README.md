@@ -1,6 +1,6 @@
 # Taskly - To-Do List App
 
-## Demo: [demo](https://www.youtube.com/watch?v=nAchMctX4YA)
+## Demo: [Taskly Demo](https://www.youtube.com/watch?v=nAchMctX4YA)
 
 
 ___
