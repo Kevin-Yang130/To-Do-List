@@ -1,6 +1,6 @@
 # Taskly - To-Do List App
 
-![app](./To-Do-List/images/file.png)
+![app](./To-Do-List/images/login.png)
 
 ![app](./To-Do-List/images/list.png)
 
