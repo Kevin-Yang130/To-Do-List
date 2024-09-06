@@ -1,10 +1,10 @@
 # Taskly To-Do-List App
 
-Demo: [Takly Demo](https://www.youtube.com/watch?v=nAchMctX4YA)
-
 ![app](./To-Do-List/images/list.png)
 
 Welcome to Taskly, a simple and intuitive to-do list app built with Swift to help you stay organized and productive. With Taskly, you can easily manage tasks, set priorities, and track your progress—all in one place!
+
+Demo: [Takly Demo](https://www.youtube.com/watch?v=nAchMctX4YA)
 
 
 ## Features
