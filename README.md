@@ -2,6 +2,8 @@
 
 Welcome to Taskly, a simple and intuitive to-do list app built with Swift to help you stay organized and productive. With Taskly, you can easily manage tasks, set priorities, and track your progress—all in one place!
 
+![app](./To-Do-List/images/list.png)
+
 ## Features
 - **Add Tasks**: Quickly add tasks with a simple tap.
 - **Edit Tasks**: Need to make changes? You can easily edit task details at any time.
