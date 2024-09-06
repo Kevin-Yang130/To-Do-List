@@ -13,9 +13,7 @@ import Foundation
 //item
 
 class ToDoListItemViewViewModel: ObservableObject {
-    init() {
-        
-    }
+    init() {}
     
     func toggleIsDone(item: ToDoListItem) {
         var itemCopy = item

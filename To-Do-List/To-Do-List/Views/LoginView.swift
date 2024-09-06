@@ -17,7 +17,7 @@ struct LoginView: View {
                 //header
                 HeaderView(
                     title: "Taskly",
-                    subtitle: "Get things Done",
+                    subtitle: "Quick, Fast, Easy",
                     angle: 10,
                     backgroundColor: .blue
                 )

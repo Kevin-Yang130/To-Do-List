@@ -40,9 +40,6 @@ class NewItemViewViewModel: ObservableObject {
             isDone: false
         )
         
-        
-        
-        
         //save the model to the data base. (a sub collection of the current user)
         let db = Firestore.firestore()
         db.collection("users")
