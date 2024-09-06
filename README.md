@@ -7,10 +7,8 @@ Demo: [Takly Demo](https://www.youtube.com/watch?v=nAchMctX4YA)
 
 ## Features
 - **Add Tasks**: Quickly add tasks with a simple tap.
-- **Edit Tasks**: Need to make changes? You can easily edit task details at any time.
-- **Task Prioritization**: Assign priority levels to your tasks, so you always know what’s most important.
 - **Mark as Complete**: Check off tasks when they're done and watch your progress grow.
-- **Customizable UI**: Clean, user-friendly design with customizable themes to suit your style.
+- **UI**: Clean, user-friendly design with customizable themes to suit your style.
 - **Due Date Reminders**: Set due dates to make sure nothing slips through the cracks.
 
 ## How to Use
